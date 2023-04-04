@@ -14,10 +14,7 @@ void main() {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        routes: {
-          '/':(context) =>Post_Screen()
-        },
-
+        routes: {'/': (context) => Post_Screen()},
       ),
     ),
   );
